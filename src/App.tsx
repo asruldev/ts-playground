@@ -4,7 +4,7 @@ import Editor from '@monaco-editor/react';
 import 'monaco-editor/min/vs/editor/editor.main.css';
 
 export default function TypeScriptPlayground() {
-  const [code, setCode] = useState("const message: string = 'Hello, TypeScript!';\nconsole.log(message);");
+  const [code, setCode] = useState("const message: string = 'Hello, Asrul! Siap Belajar?';\nconsole.log(message);");
   const [output, setOutput] = useState('');
   const [consoleOutput, setConsoleOutput] = useState('');
 
