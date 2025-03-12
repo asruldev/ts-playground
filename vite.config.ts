@@ -8,5 +8,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@monaco-editor/react']
   },
-  base: "/ts"
+  base: "/"
 })
